@@ -62,7 +62,7 @@ const retrieveTopK = (queryEmbedding, embeddings, k, filters = {}) => {
 const main = async () => {
   // Create embeddings for the final chunks
   const embeddings = await createEmbeddings(finalChunks);
-  const query = "What is the main topic of the document?";
+  const query = "What is this document about?";
   const queryEmbeddingResponse = await openai.embeddings.create({
     model: "text-embedding-3-small",
     input: query,

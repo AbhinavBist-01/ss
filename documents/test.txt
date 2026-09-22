@@ -1,1 +1,4 @@
-hello , this is a file 
+This document explains how transformers work.
+Transformers use self-attention to understand relationships
+between tokens. Multi-head attention allows the model to
+capture different relationships between words.
