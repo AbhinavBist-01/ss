@@ -56,5 +56,5 @@ function attachMetadata(chunks) {
 
 const docs = await loadDocuments();
 const chunks = await chunkDocuments(docs);
-const finalChunks = attachMetadata(chunks);
+export const finalChunks = attachMetadata(chunks);
 console.log(finalChunks);
